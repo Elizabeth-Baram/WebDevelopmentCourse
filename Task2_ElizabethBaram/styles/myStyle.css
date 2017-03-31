@@ -1,0 +1,180 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body 
+{
+    font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+    direction:rtl;
+    margin-top: 15px;
+
+}
+
+#container {
+    margin: 0px auto;
+    width: 960px;
+}
+
+#hey {
+    background-image: url(../images/me.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    width: 300px;
+    margin-right: 130px;
+}
+
+span {
+    margin-right: 270px;
+    margin-top: 112px;
+    font-size: 100pt;
+    font-weight: bold;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    color: #1d3c54;
+    line-height: 70%;
+    text-shadow: 3px 3px 3px #bababa;
+}
+
+.p1 {
+    margin-top: 20px;
+    display: block;
+    background-color: #1d3c54;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#work {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #15a2e0;
+    color: white;
+    padding: 15px;
+    width: 440px;
+    height: 90px;
+    float: right;
+   border-radius: 10px;
+}
+
+
+#hobby {
+    margin-top: 20px;
+    display: inline-block;
+    background-color: #15a2e0;
+    color: white;
+    padding: 15px;
+    width: 440px;
+    height: 90px;
+    float: left;
+       border-radius: 10px;
+}
+
+#talk {
+    margin-top: 160px;
+    display: block;
+    background-color: #1d3c54;
+    color: white;
+    padding: 15px;
+   border-radius: 10px;
+}
+
+p {
+    font-size: 11pt;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 13pt;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    display: inline;
+    margin-right: 240px;
+}
+
+.whats {
+    background-image: url(../images/whatsapp_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin-left:260px;
+}
+
+.whats:hover {
+    background-position: left;
+
+}
+
+.face {
+    background-image: url(../images/facebook_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin-left:20px;
+}
+
+.face:hover {
+    background-position: left;
+}
+
+.mail {
+    background-image: url(../images/gmail_24_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin-left:20px;
+}
+
+.mail:hover {
+    background-position: left;
+}
+
+.linkd {
+    background-image: url(../images/linkedin_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin-left:20px;
+}
+
+.linkd:hover {
+    background-position: left;
+}
+
+.portfolio {
+    margin-top: 30px;
+    font-size: 40pt;
+    font-weight: bold;
+    color: #15a2e0;
+}
+
+.portfolio:hover {
+    color: #1d3c54;
+}
+
+a {
+    text-decoration: none;
+}
