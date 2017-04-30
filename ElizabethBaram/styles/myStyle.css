@@ -1,0 +1,475 @@
+body 
+{
+    direction:rtl;
+    font-family: 'Assistant', serif;
+    background-image: url(../images/BG-01.jpg);
+    background-size: cover;
+    height: 1200px;
+}
+
+#container {
+    margin:0 auto;
+    width: 960px;
+}
+
+
+#nav1 {
+    margin-top: 50px;
+}
+
+#nav1 ul {
+    width: 490px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 80px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 80px;
+            height: 40px;
+            font-size: 16px;
+        }
+
+            #nav1 ul li ul li {
+            display: block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            }
+
+            #nav1 ul li a:hover {
+            color: #336666;
+            transition: all 1s ease;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li ul a {
+            width: 200px;
+            margin-top: 23px;
+            line-height: 90%;
+        }
+
+        #nav1 ul li ul a:hover {
+            color: #6B9B8F;
+            transition: all 1s ease;
+        }
+        
+
+        #nav1 ul li:hover ul {
+            background-image: url(../images/navigation-01.svg);
+            display: block;
+            width: 207px;
+            height: 170px;
+            position: absolute;
+        }
+
+
+#sideNav{
+    clear:both;
+    display: inline-block;
+    float: right;
+    width:auto;
+    margin-right: 50px;
+}
+
+#sideNav ul {
+    list-style: none;
+}
+
+    #sideNav ul li {
+        display: block;
+        width: 120px;
+    }
+
+
+.insta {
+    background-image: url(../images/icons_NEW-02.png);
+    background-position: left;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.insta:hover {
+    background-position: right;
+}
+
+.face {
+    background-image: url(../images/icons_NEW-01.png);
+    background-position: left;
+    height: 50px;
+    width: 50px;
+     margin-bottom: 10px;
+}
+
+.face:hover {
+    background-position: right;
+}
+
+.linkd {
+    background-image: url(../images/icons_NEW-03.png);
+    background-position: left;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.linkd:hover {
+    background-position: right;
+}
+
+
+section {
+    margin: 50px auto;
+    width: 900px;
+    height: 350px;
+}
+
+p {
+    margin:auto;
+    color: white;
+    font-size: 12pt;
+    line-height:180%;
+    text-align: justify;
+}
+
+#Ul1 {
+    color: white;
+    font-size: 12pt;
+    line-height:200%;
+    text-align: justify;
+    list-style: circle;
+    margin-right: 20px;
+}
+
+h4 {
+    color: #91765C;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-bottom:20px;
+}
+
+h3 {
+    color: #336666;
+    font-size: 30pt;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom:20px;
+}
+
+h2 {
+    color: white;
+    font-size: 12pt;
+    float: right;
+    font-weight: lighter;
+    margin-right:10px;
+}
+
+h1 {
+   color: #336666;
+   display: inline-block;
+   font-size: 108pt;
+   font-weight: normal;
+   line-height: 80%;
+}
+
+h1 strong {
+    font-size: 131.5pt;
+}
+
+
+.firstP {
+    margin: 0 auto;
+    width: 940px;
+    margin-top: 270px;
+    color: #336666;
+    font-size: 13pt;
+    line-height:180%;
+    text-align: justify;
+}
+
+
+.DarkP {
+    margin: 0 auto;
+    width: 940px;
+    color: #336666;
+    text-align: justify;
+    font-size: 12pt;
+    line-height:180%;
+    float: right;
+}
+
+.rezume a {
+    margin:auto;
+    width: 940px;
+    color: #336666;
+    text-align: justify;
+    font-size: 12pt;
+    line-height:180%;
+    text-decoration: none;
+}
+
+.rezume a:hover {
+    color:#91765C ;
+}
+
+footer {
+    display:block;
+    position: absolute;
+    top: 1020px;
+    background-color: #E8DFD2;
+    margin: auto 20px;
+}
+
+#line {
+    background-color: #6B9B8F;
+    height: 2px;
+    width: 900px;
+    display: block;
+    border-radius: 1px;
+    margin: 30px auto;
+    position: absolute;
+}
+
+
+#nav2{
+    margin-top: 50px;
+    margin-right: 75px;
+    display: inline-block;
+}
+
+#nav2 ul {
+    list-style: none;
+}
+
+    #nav2 ul li {
+        display: block;
+        width: 150px;
+        color: #336666;
+        font-size: 10pt;
+        Padding-top: 2px;
+    }
+
+      #nav2 ul li:first-child {
+          margin-bottom: 15px;
+      }
+
+        #nav2 ul li a {
+            display: block;
+            color: #336666;
+            text-decoration: none;
+            width: 200px;
+            height: 30px;
+        }
+
+            #nav2 ul li a:hover {
+              color: #6B9B8F;
+              transition: all 1s ease;
+            }
+
+            #nav2 ul li a:active {
+               color: black;
+            }
+
+
+
+
+#middleProject {
+    width: auto;
+    height: 450px;
+    display: block;
+}
+
+ #selfPortrait {
+     background-image: url(../images/self_portrait_ElizabethBaram.jpg);
+     background-repeat: no-repeat;
+     width: 280px;
+     height: 370px;
+     background-size: 280px 741px;
+     background-position: bottom;
+     display: inline-block;
+     position:absolute;
+     top: 660px;
+     left: 280px;
+ }
+
+    #selfPortrait:hover {
+    background-position: top;
+    transition: ease;
+    }
+
+    #vanGoch {
+    background-image:url(../images/finalproject_vangoch.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 286px;
+    width: 400px;
+    height: 286px;
+    position:absolute;
+     top: 308px;
+     left: 280px;
+    }
+
+    #video {
+        margin-top: 10px;
+        margin-right: 10px;
+    }
+
+#posters {
+   position:absolute;
+   top: 350px;
+}
+
+#Poster1 {
+    background-image: url(../images/poster_ElizabethBaram_psychology.png);
+    background-size: 450px 636px;
+    width: 450px;
+    height: 636px;
+    margin-right: 15px;
+}
+
+#Poster2 {
+    background-image: url(../images/poster_ElizabethBaram.png);
+    background-size: 450px 636px;
+    width: 450px;
+    height: 636px;
+    float: left;
+    margin-right: 30px;
+}
+
+
+#infographic {
+    position: absolute;
+    top: 460px;
+    left: 515px;
+    margin: 0 auto;
+}
+
+#FirstName {
+    display: block;
+    color: white;
+}
+
+#LastName {
+    display: block;
+    color: white;
+}
+
+#myMS {
+    display: block;
+    color: white;
+}
+
+#Send {
+       color: white;
+        background-color: #336666;
+        font-weight: bold;
+}
+
+
+form {
+    width: 408px;
+    height: 300px;
+    position: absolute;
+    left: 510px;
+    margin-top: 50px;
+
+}
+
+label{
+     display:block;
+     margin-top:10px;
+}
+
+input[type ='text'] , input[type ='password'], [type ='number'] , select {
+    display:block;
+    margin-bottom:15px;
+    border-radius: 8px;
+    width:400px;
+    height: 30px;
+}
+
+input[type ='submit']
+{
+ margin-top:10px;
+ border-radius: 8px;
+ width: 50px;
+ height: 30px;
+ float: left;
+
+
+}
+
+textarea {
+    height: 200px;
+    display:block;
+    margin-bottom:15px;
+    border-radius: 8px;
+    width:400px;
+}
+
+
+#music {
+    margin: 0 auto;
+    position: absolute;
+    top: 420px;
+    right: 555px;
+}
+
+
+
+#perur ul {
+    list-style: none;
+    text-decoration: none;
+    display: block;
+    float: right;
+    color: white;
+    height: 40px;
+    width: 270px;
+    position: absolute;
+    top: 90px;
+}
+
+    #perur ul li {
+        display: inline-block;
+        font-size: 10pt;
+    }
+
+    #perur ul li a{
+        text-decoration: none;
+        color: #E5D8C1;
+    }
+
+
+    #perur ul li:after {
+        content: ">";
+        margin: 0 5PX;
+        color: white;
+    }
+
+    #perur ul li:last-child:after
+     {
+     content:"" ;
+     }
