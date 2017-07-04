@@ -1,0 +1,186 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Meluchit - מְלוּחִית | הסלטים המומלצים</title>
+    <meta name="description" content="עמוד הסלטים המומלצים" />
+    <meta name="keywords" content="Meluchit, salad, vegetables, ירקות, סלט, סלטים, מְלוּחִית " />
+    <meta name="author" content="Aviad Nahman, Dean Markus, Elizabeth Baram" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Assistant" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body onload="tab_nav()" class="popSalad">
+    <div id="container">
+        <!-- תפריט ניווט ראשי -->
+        <div id="topNav">
+            <nav id="mainNav" class="hor">
+                <ul>
+                    <li><a href="index.html" alt="דף הבית"><img src="/images/logo_innerPages_100_48.png" width="90" height="42" /></a></li>
+                    <li>
+                        <a href="#" class="notAvailable" id="selectedPage">הסלטים</a>
+                        <ul>
+                            <li>
+                                <a href="popularSalads.html">סלטים מומלצים</a>
+                                <ul>
+                                    <li><a href="corruptSalads.html">שחיתות</a></li>
+                                    <li><a href="#" class="notAllowed">בריאות</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי זמן הכנה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">פחות מ-10 דקות</a></li>
+                                    <li><a href="#" class="notAllowed">10 דקות ומעלה</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי קושי הכנה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">קל</a></li>
+                                    <li><a href="#" class="notAllowed">בינוני</a></li>
+                                    <li><a href="#" class="notAllowed">קשה</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי אופי הסלט</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">מבושל</a></li>
+                                    <li><a href="#" class="notAllowed">חם</a></li>
+                                    <li><a href="#" class="notAllowed">קר</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי מטרה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">מנה ראשונה</a></li>
+                                    <li><a href="#" class="notAllowed">ארוחת צהריים</a></li>
+                                    <li><a href="#" class="notAllowed">לקינוח</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notAvailable"> מרכיבים ותוספות</a>
+                        <ul>
+                            <li><a href="#" class="notAllowed">שילובים מומלצים</a></li>
+                            <li><a href="#" class="notAllowed">אקזוטיים ומיוחדים</a></li>
+                            <li><a href="#" class="notAllowed">גבינות טעימות</a></li>
+                            <li><a href="#" class="notAllowed">תוספות נוספות</a></li>
+                            <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notAvailable">הידעת?</a>
+                        <ul>
+                            <li><a href="#" class="notAllowed">חנויות מומלצות</a></li>
+                            <li><a href="#" class="notAllowed">כלים הכרחיים</a></li>
+                            <li><a href="interactivePage.html">ערכים תזונתיים</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="aboutUs.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="skip">
+            <a href="#content-anchor">
+                <img src="images/SKIPto.png" width="35" height="35" id="skipTO" alt="אייקון דילוג לתוכן" /><br />
+                דלג <br />
+                לתוכן
+            </a>
+        </div>
+            <!-- חלק עליון של הדף -->
+        <header>
+            <h1 class="headline">הסלטים המומלצים</h1>
+            <nav id="perurNav">
+                <ul>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li>הסלטים המומלצים</li>
+                </ul>
+            </nav>
+        </header>
+
+            <!-- מלל הסבר לדף סלטים מומלצים -->
+            <section>
+                <p>"על טעם ועל ריח אין להתווכח" - ועדין, יש סלטים שהרוב כבר קבע לגביהם. <br />
+              הביקורות החיוביות של אוכלוסיית חובבי המלוחיות הראו לנו כי יש סלטים שכדאי להמליץ עליהם לכולם. אז מה תעדיפו - סלט מושחת או סלט בריא? כאן תמצאו את הסלטים שכבשו את הקטגוריות השונות, ולכם נשאר רק לעיין ולבחור.</p>
+            </section>
+
+            <!-- אופציות הבחירה בעמוד סלטים מומלצים -->
+        <a name="content-anchor"></a>
+            <section>
+                <div id="corruptANDhealth">
+                    <div id="healthSalads">
+                        <img src="/images/roundSalad-08.png" width="250" height="250" alt="סלטי בריאות" id="briut" />
+                        <h2><b>בריאות</b></h2>
+                        <p>חשבתם שלא טעים לאכול בריא? תחשבו שוב. הירקות, הפירות והתוספות המיוחדות יגרמו לכם להתענג על כל ביס. ואם הטעם לא מספיק, כל המרכיבים מרוכזים בקרעות של סלטים עשירים בויטמינים, מינרלים ומעל הכל - דלי קלוריות.</p>
+                        <a href="#" id="toRecipe" class="notAllowed">לסלטי הבריאות >></a>
+                    </div>
+                    <div id="corruptSalads">
+                        <img src="/images/roundSalad-10.png" width="250" height="250" alt="סלטי שחיתות" id="shitut" />
+                        <h2><b>שחיתות</b></h2>
+                        <p>אם אתם מנסים לשמור על הגזרה, כנראה שזה לא העמוד בשבילכם. ספירת כמות קלוריות בחוץ, שילוב מצרכים עתירי שומן בפנים. כאן תוכלו למצוא את אותם הסלטים, שרק מצפיה בתמונה גורמים לכל אחד מאיתנו להזיל ריר.</p>
+                        <a href="corruptSalads.html" id="toRecipe">לסלטי השחיתות >></a>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+        <!-- מפת אתר תחתונה -->
+        <footer>
+            <img id="kruvit1" src="images/kruvit_footer_250_230.png" width="300" height="280" />
+            <nav id="bottomNav">
+                <ul>
+                    <li><b>הסלטים</b></li>
+                    <li><a href="popularSalads.html">סלטים מומלצים</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי זמן הכנה</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי קושי הכנה</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי אופי הסלט</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי מטרה</a></li>
+                    <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                    </>
+                </ul>
+                <ul>
+                    <li><b>המרכיבים והתוספות</b></li>
+                    <li><a href="#" class="notAllowed">שילובים מומלצים</a></li>
+                    <li><a href="#" class="notAllowed">אקזוטיים ולא מוכרים</a></li>
+                    <li><a href="#" class="notAllowed">גבינות טעימות</a></li>
+                    <li><a href="#" class="notAllowed">תוספות נוספות</a></li>
+                    <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                </ul>
+                <ul>
+                    <li><b>הידעת?</b></li>
+                    <li><a href="#" class="notAllowed">חנויות מומלצות</a></li>
+                    <li><a href="#" class="notAllowed">כלים הכרחיים</a></li>
+                    <li><a href="interactivePage.html">ערכים תזונתיים</a></li>
+                </ul>
+                <ul>
+                    <li> </li>
+                    <li><a href="index.html"><b>דף הבית</b></a></li>
+                    <li><a href="aboutUs.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a href="siteMap.html">מפת אתר</a></li>
+                </ul>
+            </nav>
+            <hr />
+            <p class="credit">© כל הזכויות שמורות למלוחית 2017</p>
+        </footer>
+
+
+
+</body>
+</html>
