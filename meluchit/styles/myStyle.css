@@ -1,23 +1,23 @@
-/*äèîòú ôåğèéí*/
+/*Ã¤Ã¨Ã®Ã²Ãº Ã´Ã¥Ã°Ã¨Ã©Ã­*/
 @font-face {
     font-family: 'Assistant-Regular';
-    src: url('../Fonts/Assistant-Regular.ttf');
-    src: url('../Fonts/Assistant-Regular.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Regular.ttf') format('truetype');
+    src: url('../Fonts/Assistant-Regular.eot');
+    src: url('../Fonts/Assistant-Regular.eot?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Assistant-Bold';
-    src: url('../Fonts/Assistant-Bold.ttf');
-    src: url('../Fonts/Assistant-Bold.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Bold.ttf') format('truetype');
+    src: url('../Fonts/Assistant-Bold.eot');
+    src: url('../Fonts/Assistant-Bold.eot?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Bold.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Assistant-Light';
-    src: url('../Fonts/Assistant-Light.ttf');
-    src: url('../Fonts/Assistant-Light.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Light.ttf') format('truetype');
+    src: url('../Fonts/Assistant-Light.eot');
+    src: url('../Fonts/Assistant-Light.eot?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Light.ttf') format('truetype');
 }
 
-/*äbody äùåğéí ùì äàúø*/
+/*Ã¤body Ã¤Ã¹Ã¥Ã°Ã©Ã­ Ã¹Ã¬ Ã¤Ã ÃºÃ¸*/
 
 body {
     direction:rtl;
@@ -60,7 +60,7 @@ body {
 
 
 
-/*úôøéè ğéååè øàùé*/
+/*ÃºÃ´Ã¸Ã©Ã¨ Ã°Ã©Ã¥Ã¥Ã¨ Ã¸Ã Ã¹Ã©*/
 
 #topNav {
     display: block;
@@ -166,7 +166,7 @@ z-index: 15;
 
 
 
-/*äìåâå åäëåúøú*/
+/*Ã¤Ã¬Ã¥Ã¢Ã¥ Ã¥Ã¤Ã«Ã¥ÃºÃ¸Ãº*/
 header {
     text-align: center;
     position: relative;
@@ -204,7 +204,7 @@ header {
             margin-bottom: 5px;
         }
 
-/*ä÷øåñìä åëì îä ù÷ùåø àìéä*/
+/*Ã¤Ã·Ã¸Ã¥Ã±Ã¬Ã¤ Ã¥Ã«Ã¬ Ã®Ã¤ Ã¹Ã·Ã¹Ã¥Ã¸ Ã Ã¬Ã©Ã¤*/
 #rightSalad {
     display: inline-block;
     text-align: center;
@@ -230,7 +230,7 @@ header {
     margin-left: 100px;
 }
 
-/*úôøéè ôéøåøé ìçí*/
+/*ÃºÃ´Ã¸Ã©Ã¨ Ã´Ã©Ã¸Ã¥Ã¸Ã© Ã¬Ã§Ã­*/
 #perurNav {
     display: block;
     position: relative;
@@ -275,7 +275,7 @@ header {
             color: #A2EC34;
         }
 
-/*äâãøåú ëììéåú ìëì äàúø*/
+/*Ã¤Ã¢Ã£Ã¸Ã¥Ãº Ã«Ã¬Ã¬Ã©Ã¥Ãº Ã¬Ã«Ã¬ Ã¤Ã ÃºÃ¸*/
 
 .headline {
     font-family: Assistant-Bold;
@@ -339,7 +339,7 @@ p {
         text-align: center;
     }
 
-/*ñèééìéí ùì ÷éùåøéí*/
+/*Ã±Ã¨Ã©Ã©Ã¬Ã©Ã­ Ã¹Ã¬ Ã·Ã©Ã¹Ã¥Ã¸Ã©Ã­*/
 #toRecipe {
     color: #55A646;
     float: left;
@@ -383,7 +383,7 @@ section {
     margin-right: 30px;
 }
 
-                                                                            /*ñâğğåú òëáø*/
+                                                                            /*Ã±Ã¢Ã°Ã°Ã¥Ãº Ã²Ã«Ã¡Ã¸*/
                                                                             .notAvailable {
                                                                                 cursor: default;
                                                                             }
@@ -392,7 +392,7 @@ section {
                                                                                 cursor: not-allowed;
                                                                             }
 
-/*îôú àúø úçúåğä*/
+/*Ã®Ã´Ãº Ã ÃºÃ¸ ÃºÃ§ÃºÃ¥Ã°Ã¤*/
 footer {
     background-color: #3E5F2D;
     display: block;
@@ -460,7 +460,7 @@ footer {
 
 
 
-/*òîåãéí ôğéîééí*/
+/*Ã²Ã®Ã¥Ã£Ã©Ã­ Ã´Ã°Ã©Ã®Ã©Ã©Ã­*/
 
 #corruptANDhealth {
     display: block;
@@ -693,7 +693,7 @@ b {
     display: inline-block;
 }
 
-/*ãó àåãåú*/
+/*Ã£Ã³ Ã Ã¥Ã£Ã¥Ãº*/
 
 #us {
     margin-top: 50px;
@@ -745,7 +745,7 @@ b {
 }
 
 
-/*èåôñ ìéöéøú ÷ùø*/
+/*Ã¨Ã¥Ã´Ã± Ã¬Ã©Ã¶Ã©Ã¸Ãº Ã·Ã¹Ã¸*/
 
 form {
     width: 500px;
@@ -796,7 +796,7 @@ form {
                             color: white;
                         }
 
-    /*äééöåâ äàéğèø÷èéáé*/
+    /*Ã¤Ã©Ã©Ã¶Ã¥Ã¢ Ã¤Ã Ã©Ã°Ã¨Ã¸Ã·Ã¨Ã©Ã¡Ã©*/
     #interactiveDesign {
         display: block;
         margin-top: 200px;
@@ -811,7 +811,7 @@ form {
     }
 
 
-/*îôú äàúø*/
+/*Ã®Ã´Ãº Ã¤Ã ÃºÃ¸*/
 #siteMap {
     margin-top: 250px;
     margin-bottom: -300px;
