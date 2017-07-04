@@ -1,0 +1,281 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>Meluchit - מְלוּחִית | סלט גרעינים ופטריות במייפל</title>
+    <meta name="description" content="מתכון עם הסבר להכנת סלט גרעינים ופטריות במייפל" />
+    <meta name="keywords" content="Meluchit, salad, vegetables, ירקות, סלט, סלטים, מְלוּחִית " />
+    <meta name="author" content="Aviad Nahman, Dean Markus, Elizabeth Baram" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/favicon.png">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-rtl.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body onload="tab_nav()" class="mushSalad">
+    <div id="container">
+
+        <!-- תפריט ניווט ראשי -->
+        <div id="topNav">
+            <nav id="mainNav" class="hor">
+                <ul>
+                    <li><a href="index.html" alt="דף הבית"><img src="/images/logo_innerPages_100_48.png" width="90" height="42"/></a></li>
+                    <li>
+                        <a href="#" class="notAvailable" id="selectedPage">הסלטים</a>
+                        <ul>
+                            <li>
+                                <a href="popularSalads.html">סלטים מומלצים</a>
+                                <ul>
+                                    <li><a href="corruptSalads.html">שחיתות</a></li>
+                                    <li><a href="#" class="notAllowed">בריאות</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי זמן הכנה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">פחות מ-10 דקות</a></li>
+                                    <li><a href="#" class="notAllowed">10 דקות ומעלה</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי קושי הכנה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">קל</a></li>
+                                    <li><a href="#" class="notAllowed">בינוני</a></li>
+                                    <li><a href="#" class="notAllowed">קשה</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי אופי הסלט</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">מבושל</a></li>
+                                    <li><a href="#" class="notAllowed">חם</a></li>
+                                    <li><a href="#" class="notAllowed">קר</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" class="notAllowed">לפי מטרה</a>
+                                <ul>
+                                    <li><a href="#" class="notAllowed">מנה ראשונה</a></li>
+                                    <li><a href="#" class="notAllowed">ארוחת צהריים</a></li>
+                                    <li><a href="#" class="notAllowed">לקינוח</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notAvailable"> מרכיבים ותוספות</a>
+                        <ul>
+                            <li><a href="#" class="notAllowed">שילובים מומלצים</a></li>
+                            <li><a href="#" class="notAllowed">אקזוטיים ומיוחדים</a></li>
+                            <li><a href="#" class="notAllowed">גבינות טעימות</a></li>
+                            <li><a href="#" class="notAllowed">תוספות נוספות</a></li>
+                            <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="notAvailable">הידעת?</a>
+                        <ul>
+                            <li><a href="#" class="notAllowed">חנויות מומלצות</a></li>
+                            <li><a href="#" class="notAllowed">כלים הכרחיים</a></li>
+                            <li><a href="interactivePage.html">ערכים תזונתיים</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="aboutUs.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a href="siteMap.html">מפת האתר</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="skip">
+            <a href="#content-anchor">
+                <img src="images/SKIPto.png" width="35" height="35" id="skipTO" alt="אייקון דילוג לתוכן" /><br />
+                דלג <br />
+                לתוכן
+            </a>
+        </div>
+ 
+            <!-- חלק עליון של הדף -->
+            <header>
+                <h1 class="headline">סלט גרעינים ופטריות במייפל</h1>
+                <nav id="perurNav">
+                    <ul>
+                        <li><a href="index.html">דף הבית</a></li>
+                        <li><a href="popularSalads.html">הסלטים המומלצים</a></li>
+                        <li><a href="corruptSalads.html">סלטי שחיתות</a></li>
+                        <li>סלט גרעינים ופטריות במייפל</li>
+                    </ul>
+                </nav>
+            </header>
+
+
+            <!-- מידע ראשי בעמוד סלט גרעינים ופטריות במייפל -->
+            <section>
+                <div id="toPrint">
+                    <a href="files/saladRecipeMushroomsMaple.pdf" target="_blank" >
+                        <img src="images/print_icon_35.png" width="40" height="40" alt="אייקון של מדפסת"/> <br />
+                        להדפסת<br />
+                        המתכון
+                    </a>
+                </div>
+                <a name="content-anchor"></a>
+                <div id="saladInfo">
+                    <ul>
+                        <li>זמן ההכנה: כ-20 דק'</li>
+                        <li>זמן עבודה: כ-8 דק'</li>
+                        <li>דרגת קושי: קל</li>
+                    </ul>
+                    <ul>
+                        <li>מטרה: ארוחת צהריים/ערב</li>
+                        <li>מתאים לכמות של 2 סועדים</li>
+                    </ul>
+                </div>
+                <p class="saladDescription">גרסה משודרגת לסלט הירקות הקלאסי, עם תערובת גרעינים ופטריות ברוטב מייפל</p>
+            </section>
+            </div>
+            <img id="hugeSalad" src="images/huge_salad_550_300.png" width="400" height="720" alt="תמונת סלט להמחשה"/>
+    <div id="container">
+        <!-- מצרכים לסלט גרעינים ופטריות במייפל -->
+        <section>
+            <div id="products">
+                <h2>מצרכים:</h2>
+                <h3>לסלט:</h3>
+                <ul>
+                    <li>עגבנייה גדולה</li>
+                    <li>מלפפון</li>
+                    <li>רבע בצל סגול (מומלץ,אך אפשר גם לבן)</li>
+                    <li>חצי לימון</li>
+                    <li>2 כפות סירופ מייפל</li>
+                    <li>שמן זית</li>
+                    <li>חופן צנוברים קלויים</li>
+                    <li>חופן גרעיני חמנייה</li>
+                    <li>חופן גרעיני דלעת</li>
+                    <li>קרוטונים</li>
+                    <li class="lastItem">* במקום לקנות את הגרעינים בנפרד,  ניתן לקנות תערובת גרעינים מוכנה לסלט</li>
+                </ul>
+                <br />
+                <h3>לפטריות:</h3>
+                <ul>
+                    <li>4 פטריות שמפיניון</li>
+                    <li>כוס מוצרלה מגורדת (אפשרי גם עם גבינה צהובה/מוצרלה שלמה שנחתוך לקוביות)</li>
+                </ul>
+            </div>
+            <div id="instructions">
+                <h2>הוראות הכנה:</h2>
+                    <h3>הכנת הפטריות:</h3>
+                <div id="steps">
+                <div id="step1">
+                    <img id="firstStep" src="images/recipe_steps-18.jpg" width="350" height="270" alt="תמונה המתארת את הפטריות ללא הרגליים מלאות במייפל" />
+                    <ul>
+                        <li><b>1.</b> נחתוך את הרגליים של הפטריות ונרוקן אותן.</li>
+                        <li><b>2.</b> נטפטף כמה טיפות סירופ מייפל לתוך הפטרייה הריקה.</li>
+                    </ul>
+                </div>
+                <div id="step2">
+                    <img id="secondStep" src="images/recipe_steps-19.jpg" width="350" height="270" alt="תמונה המתארת את הפטריות בתבנית מוכנות לאפייה" />
+                    <ul>
+                        <li><b>3.</b> נמרח את ראש הפטרייה במעט שמן זית ונמלא בגבינה המגורדת/חתוכה - ככף גבינה בפטרייה.</li>
+                        <li><b>4.</b> נסדר את הפטריות בתבנית ונאפה בתנור שמחומם ל-200 מעלות במשך כ-15 דקות.</li>
+                    </ul>
+                </div>
+                <div id="step3">
+                    <img id="thirdStep" src="images/recipe_steps-20.jpg" width="350" height="270" alt="תמונה המתארת את חיתוך הירקות המומלץ" />
+                    <ul>
+                        <li><b>5.</b> נחתוך את העגבנייה, המלפפון והבצל ונניח בקערה. (ניתן לחתוך את הירקות לפי העדפתכם האישית אך מומלץ לא לחתוך קצוץ/דק מדי).</li>
+                    </ul>
+                </div>
+                <div id="step4">
+                    <img id="fourthStep" src="images/recipe_steps-21.jpg" width="350" height="270" alt="תמונה המתארת את הירקות בקערה יחד עם רטבי התיבול" />
+                    <ul>
+                        <li><b>6.</b> נסחט את הלימון ונוסיף אותו לתערובת, יחד עם כף אחת של שמן זית ומעט מלח ופלפל.).</li>
+                    </ul>
+                </div>
+
+                    <div id="step5">
+                        <h3>לאחר שהפטריות מוכנות:</h3>
+                        <img id="finalStep" src="images/recipe_steps-22.jpg" width="350" height="270" alt="תמונה המציגה את הסלט מוכן, יחד עם תמונות של הקרוטונים ותערובת הגרעינים" />
+                        <ul>
+                            <li><b>7.</b> נוסיף את הפטריות לקערה יחד עם תערובת הגרעינים.</li>
+                            <li><b>8.</b> נוסיף את סירוף המייפל והקרוטונים לתערובת, נערבב היטב ונגיש.</li>
+                        </ul>
+                    </div>
+                    <h2 class="bonAppetit">בתאבון!</h2>
+                </div>
+            </div>
+        </section>
+
+
+        <div id="hamlazot">
+            <hr />
+            <!-- המלצות נוספות בתחתית העמוד של המתכון -->
+            <h3>אם אהבתם מתכון זה, אתם מוזמנים לעיין במתכונים מומלצים נוספים:</h3>
+            <div id="hamlazotSalads">
+                <div id="cabbageLentilsSweetpotatoSalad">
+                    <img src="images/roundSalad-11.png" width="100" height="100" alt="סלט רוסטביף"/>
+                    <h4>סלט רוסטביף ושזיפים</h4>
+                    <p class="Psmall">סלט שמהווה ארוחה בשרית שלמה</p>
+                    <a href="MushroomMapleGrainsSalad.html" class="notAllowed" id="toRecipeSmall">מעבר למתכון >></a>
+                </div>
+                <div id="fruitPomegranateKiwiSalad">
+                    <img src="images/roundSalad-10.png" width="100" height="100" alt="סלט פירות"/>
+                    <h4>סלט פירות מושחת</h4>
+                    <p class="Psmall">סלט טעים ומתוק, אידיאלי לקינוח</p>
+                    <a href="#" id="toRecipeSmall" class="notAllowed">מעבר למתכון >></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+        <!-- מפת אתר תחתונה -->
+        <footer>
+            <img id="kruvit1" src="images/kruvit_footer_250_230.png" width="300" height="280" />
+            <nav id="bottomNav">
+                <ul>
+                    <li>הסלטים</li>
+                    <li><a href="popularSalads.html">סלטים מומלצים</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי זמן הכנה</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי קושי הכנה</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי אופי הסלט</a></li>
+                    <li><a href="#" class="notAllowed">סלטים לפי מטרה</a></li>
+                    <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                    </>
+                </ul>
+                <ul>
+                    <li>המרכיבים והתוספות</li>
+                    <li><a href="#" class="notAllowed">שילובים מומלצים</a></li>
+                    <li><a href="#" class="notAllowed">אקזוטיים ולא מוכרים</a></li>
+                    <li><a href="#" class="notAllowed">גבינות טעימות</a></li>
+                    <li><a href="#" class="notAllowed">תוספות נוספות</a></li>
+                    <li><a href="#" class="notAllowed">הכל לפי הא'-ב'</a></li>
+                </ul>
+                <ul>
+                    <li>הידעת?</li>
+                    <li><a href="#" class="notAllowed">חנויות מומלצות</a></li>
+                    <li><a href="#" class="notAllowed">כלים הכרחיים</a></li>
+                    <li><a href="interactivePage.html">ערכים תזונתיים</a></li>
+                </ul>
+                <ul>
+                    <li> </li>
+                    <li><a href="index.html">דף הבית</a></li>
+                    <li><a href="aboutUs.html">אודות</a></li>
+                    <li><a href="contactUs.html">צור קשר</a></li>
+                    <li><a href="siteMap.html">מפת אתר</a></li>
+                </ul>
+            </nav>
+            <hr />
+            <p class="credit">© כל הזכויות שמורות למלוחית 2017</p>
+        </footer>
+
+
+
+</body>
+</html>

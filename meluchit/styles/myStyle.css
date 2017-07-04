@@ -1,0 +1,861 @@
+/*הטמעת פונטים*/
+@font-face {
+    font-family: 'Assistant-Regular';
+    src: url('../Fonts/Assistant-Regular.ttf');
+    src: url('../Fonts/Assistant-Regular.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Assistant-Bold';
+    src: url('../Fonts/Assistant-Bold.ttf');
+    src: url('../Fonts/Assistant-Bold.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Assistant-Light';
+    src: url('../Fonts/Assistant-Light.ttf');
+    src: url('../Fonts/Assistant-Light.ttf?#iefix') format('embedded-opentype'), url('../Fonts/Assistant-Light.ttf') format('truetype');
+}
+
+/*הbody השונים של האתר*/
+
+body {
+    direction:rtl;
+}
+
+.homePage 
+{
+    background-image: url(../images/cover_homepage.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.popSalad {
+    background-image: url(../images/cover_mumlazim.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 101%;
+}
+
+.currSalad {
+    background-image: url(../images/cover_shhitut.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mushSalad {
+    background-image: url(../images/cover_matkon.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    font-family: Assistant-Regular;
+}
+
+
+
+/*תפריט ניווט ראשי*/
+
+#topNav {
+    display: block;
+    margin-top: 30px;
+}
+
+
+#mainNav.hor  {
+font-family: Assistant-Bold;
+font-size: 13pt;
+text-align: center;
+z-index: 15;
+}
+
+
+
+#mainNav.hor ul {
+    list-style: none;
+    width: 950px; 
+    z-index: 15;
+}
+
+#mainNav.hor ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #mainNav.hor ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 135px;
+            Padding: 10px 5px;
+        }
+
+
+
+           #mainNav.hor ul li a:hover {
+                color: #99FF33;
+            }
+
+           #mainNav.hor ul li a:active {
+                color: #99FF33;
+            }
+
+           #mainNav.hor ul li a:focus {
+                color: #ff6a00;
+            }
+
+        #mainNav.hor ul li ul {
+            display: none;
+            position: absolute;
+            background-color: #3E5F2D;
+            text-align: right;
+            width: 135px;
+        }
+
+        #mainNav.hor ul li:hover > ul {
+            display: block;
+            width: 135px;
+            font-family: Assistant-Regular;
+            background-color: #3E5F2D;
+            text-align: right;
+            width: 135px;
+        }
+
+                    #mainNav.hor ul li:hover > ul li a {
+                        text-align: right;
+                        padding-right: 13px;
+                        font-size: 12pt;
+                    }
+
+                #mainNav.hor ul li:hover > ul li a:hover {
+                background-color: #55A646;
+                color: white;
+                }
+
+                        #mainNav.hor ul li:hover > ul li a:focus{
+                        color: #ff6a00;
+                        }
+
+         #mainNav.hor ul li ul li ul {
+            display: none;
+            position: absolute;
+            border: 1px solid #99FF33;
+            background-color: #3E5F2D;
+            margin-right:135px;
+            margin-top:-37px;
+            width: 135px;
+        }
+
+          #mainNav.hor ul li ul li:hover ul {
+            display: block;
+            width: 135px;
+            margin-right:135px;
+            margin-top:-37px;
+            font-family: Assistant-Regular;
+            background-color: #3E5F2D;
+            width: 135px;
+        }
+
+
+
+
+/*הלוגו והכותרת*/
+header {
+    text-align: center;
+    position: relative;
+    top: 64px;
+    z-index: 0;
+    clear: both;
+}
+
+#skip {
+    position: relative;
+    top: 30px;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+
+    #skip a {
+        font-family: Assistant-bold;
+        font-size: 12pt;
+        color:white;
+    }
+
+            #skip a:hover {
+                color:#A2EC34;
+                text-decoration: underline;
+            }
+
+
+            #skip a:focus {
+                color:#A2EC34;
+                text-decoration: underline;
+            }
+
+        #skipTO {
+            margin-bottom: 5px;
+        }
+
+/*הקרוסלה וכל מה שקשור אליה*/
+#rightSalad {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    float: right;
+    width: 300px;
+    margin-right: 80px;
+}
+
+#middleSalad  {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    width: 300px;
+}
+
+#leftSalad  {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+}
+
+/*תפריט פירורי לחם*/
+#perurNav {
+    display: block;
+    position: relative;
+    top: -50px;
+    text-align: right;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+
+    #perurNav ul li{
+        display: inline-block;
+        color: white;
+        text-shadow: 0px 0px 6px black;
+    }
+
+        #perurNav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+            #perurNav ul li a:hover {
+                color: #A2EC34;
+                border-bottom: 1px solid #A2EC34;
+            }
+
+                        #perurNav ul li a:focus {
+                        color: #A2EC34;
+                        border-bottom: 1px solid #A2EC34;
+                          }
+
+        #perurNav ul li:after {
+            content:">";
+            color: white;
+            padding: 5px;
+        }
+
+            #perurNav ul li:last-child:after {
+            content:"";
+            }
+
+            #perurNav ul li:last-child {
+            color: #A2EC34;
+        }
+
+/*הגדרות כלליות לכל האתר*/
+
+.headline {
+    font-family: Assistant-Bold;
+    font-size: 50pt;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    position: relative;
+    top: -50px;
+    clear: both;
+}
+h2 {
+    color: #3E5F2D;
+    font-family: Assistant-Regular;
+    font-size: 22pt;
+    margin-top: 10px;
+    margin-bottom: 5px;
+        clear: both;
+}
+
+h3 {
+    color: #54A646;
+    font-family: Assistant-Bold;
+    font-size: 16pt;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+h4 {
+    color: #3E5F2D;
+    font-family: Assistant-Bold;
+    font-size: 15pt;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 5px;
+}
+
+h5 {
+    color: white;
+    font-family: Assistant-Light;
+    font-size: 22pt;
+    text-shadow: 2px 5px 10px #000000;
+    clear: both;
+    position: absolute;
+    top: 10px;
+    right: 380px;
+}
+
+p {
+    font-family: Assistant-Regular;
+    font-size: 15pt;
+    color: black;
+    line-height: 130%;
+}
+
+    .Psmall {
+        font-family: Assistant-Regular;
+        font-size: 12pt;
+        color: black;
+        line-height: 130%;
+        text-align: center;
+    }
+
+/*סטיילים של קישורים*/
+#toRecipe {
+    color: #55A646;
+    float: left;
+    font-family: Assistant-Bold;
+    font-size: 14pt;
+    margin-top: 5px;
+}
+
+    #toRecipeSmall {
+        color: #55A646;
+        float: left;
+        font-family: Assistant-Bold;
+        font-size: 12pt;
+        margin-top: 3px;
+    }
+
+        #toRecipeSmall:hover {
+            color: #99FF33;
+            border-bottom: 1px solid #99FF33;
+        }
+
+                #toRecipeSmall:focus {
+                    color: #99FF33;
+                    border-bottom: 1px solid #99FF33;
+                }
+
+#toRecipe:hover {
+    color: #99FF33;
+    border-bottom: 1px solid #99FF33;
+}
+
+        #toRecipe:focus {
+            color: #99FF33;
+            border-bottom: 1px solid #99FF33;
+        }
+
+section {
+    position: relative;
+    top: 70px;
+    display: block;
+    margin-right: 30px;
+}
+
+                                                                            /*סגננות עכבר*/
+                                                                            .notAvailable {
+                                                                                cursor: default;
+                                                                            }
+
+                                                                            .notAllowed {
+                                                                                cursor: not-allowed;
+                                                                            }
+
+/*מפת אתר תחתונה*/
+footer {
+    background-color: #3E5F2D;
+    display: block;
+    position: relative;
+    top: 220px;
+    height: 300px;
+    clear: both;
+}
+
+#kruvit1 {
+    position:absolute;
+    left: 1220px;
+    top: 10px;
+    display:flex;
+}
+
+
+
+#bottomNav {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+#bottomNav ul {
+    display: inline-block;
+    margin-right:160px;
+    font-family: Assistant-Light;
+    font-size: 12pt;
+    color: white;
+    line-height: 150%;
+    Vertical-align: top
+}
+
+#bottomNav ul:first-child {
+    margin-right: 20px;
+}
+
+#bottomNav ul li:first-child {
+    font-family: Assistant-Bold;
+    padding-bottom: 5px;
+}
+
+    #bottomNav ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+        #bottomNav ul li a:hover {
+            color: #A2EC34;
+        }
+
+            #bottomNav ul li a:focus {
+                color: #A2EC34;
+            }
+
+.credit {
+    text-align: center;
+    font-family: Assistant-Bold;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #3E5F2D;
+}
+
+
+
+/*עמודים פנימיים*/
+
+#corruptANDhealth {
+    display: block;
+    margin-top: 100px;
+}
+
+#healthSalads, #corruptSalads {
+    display: inline-block;
+    width: 400px;
+    height: 500px;
+}
+
+#healthSalads h2,#corruptSalads h2 {
+    text-align: center;
+    font-family: Assistant-Bold;
+}
+
+#healthSalads #briut, #corruptSalads #shitut {
+    margin-right: 75px;
+}
+
+#corruptSalads {
+    margin-right: 80px;
+}
+
+
+#corruptCarousel{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#important ul {
+    margin-top: 10px;
+    list-style: circle;
+    margin-right: 20px;
+    font-family: Assistant-Regular;
+    font-size: 15pt;
+    color: black;
+    line-height: 140%;
+}
+
+.impTo {
+    margin-right: -20px;
+}
+
+#toPrint {
+    float: left;
+    margin-top: -100px;
+    margin-left: 20px;
+    text-align: center;
+    font-family: Assistant-bold;
+    font-size: 12pt;
+    color: #3E5F2D;
+}
+
+#toPrint a {
+    text-decoration: none;
+    color: #3E5F2D;
+}
+
+    #toPrint a:hover {
+        color: #55A646;
+        font-family: Assistant-Bold;
+    }
+
+        #toPrint a:focus {
+            color: #55A646;
+            font-family: Assistant-Bold;
+        }
+
+#saladInfo {
+    margin: 0 auto;
+    width: 750px;
+    height: 100px;
+    border: 4px solid #A2EC34;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#saladInfo ul {
+    list-style: none;
+    display: block;
+    color: #3E5F2D;
+    font-family: Assistant-Bold;
+    font-size: 14pt;
+    margin-top: 17px;
+}
+
+    #saladInfo ul li {
+    display: inline;
+    }   
+
+        #saladInfo ul li:after {
+        content:" | ";
+        margin-left: 15px;
+        margin-right: 15px;
+        color: #A2EC34;
+        font-family: Assistant-Bold;
+        }   
+
+        #saladInfo ul li:last-child:after {
+        content:"";
+        }   
+
+        #saladInfo ul:last-child li:after {
+        margin-left: 38px;
+        margin-right: 38px;
+        }  
+
+        #saladInfo ul:last-child li:last-child:after {
+        margin-left: 30px;
+        margin-right: 0px;
+        }  
+
+
+.saladDescription {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15pt;
+}
+
+#hugeSalad {
+    position: absolute;
+    right: 1023px;
+    display:inline;
+}
+
+#products , #instructions {
+    margin-right: 20px;
+    margin-bottom: 50px;
+    clear:both;
+}
+
+#products ul {
+    list-style: circle;
+    line-height: 150%;
+    font-size: 15pt;
+    color: black;
+    margin-right: 50px;
+    clear:both;
+}
+
+#products .lastItem {
+    font-size: 13pt;
+    list-style:none;
+    font-family: Assistant-Bold;
+    clear:both;
+}
+
+#step1, #step2, #step3, #step4, #step5, #hamlazot {
+    clear: both;
+    display: block;
+    margin-bottom: 40px;
+}
+
+#instructions ul {
+    list-style: none;
+    float: left;
+    display: inline;
+    line-height: 150%;
+    font-size: 15pt;
+    color: black;
+    width: 500px;
+    margin-right: -60px;
+    margin-top: 50px;
+}
+
+#firstStep ,#secondStep, #thirdStep, #fourthStep, #finalStep {
+    float: right;
+    display: inline;
+    margin-bottom: 20px;
+    clear: both;
+}
+    
+    #steps{
+        position: relative;
+        bottom: 60px;
+    }
+
+    .bonAppetit {
+        float: left;
+        clear: both;
+        display: block;
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    #step5 {
+        position: relative;
+        top: 50px;
+    }
+
+b {
+    color: #55A646;
+    font-family: Assistant-Bold;
+}
+
+
+
+#hamlazot {
+    margin: 0 auto;
+    clear:both;
+    position: relative;
+    top: 150px;
+}
+
+#hamlazotSalads {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#hamlazot hr {
+    border-top: 3px solid #55A646;
+    width: 940px;
+}
+
+#cabbageLentilsSweetpotatoSalad {
+    margin-top: 40px;
+    float: right;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+}
+
+#fruitPomegranateKiwiSalad {
+    text-align: center;
+    margin-top: 40px;
+    float: left;
+    width: 200px;
+    display: inline-block;
+}
+
+/*דף אודות*/
+
+#us {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+    #us ul {
+        display: block;
+        color: #3E5F2D;
+        font-family: Assistant-Bold;
+        font-size: 15pt;
+        list-style: none;
+        margin: 0 auto;
+    }
+
+        #us ul li {
+            display: inline-block;
+            margin-right: 120px;
+            text-align: center;
+        }
+
+            #us ul li a {
+                color: #3E5F2D;
+                font-family: Assistant-Bold;
+                font-size: 15pt;
+                text-decoration: none;
+            }
+            
+
+            #us ul li a:hover { 
+                color: #99FF33;
+                border-bottom: 1px solid #99FF33 ;
+            }
+
+
+#telem {
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom:-170px;
+}
+
+#telem hr {
+    border-top: 3px solid #55A646;
+    width: 940px;
+    margin-bottom: 40px;
+}
+
+
+/*טופס ליצירת קשר*/
+
+form {
+    width: 500px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+    form label {
+        color: #3E5F2D;
+        font-family: Assistant-Bold;
+        font-size: 15pt;
+        margin-top: 10px;
+    }
+
+        form input, textarea{
+            height: 40px;
+            border-radius: 10px;
+            border: none;
+            background-color:#3E5F2D;
+            margin-top: 5px;
+        }
+            input {
+                color: white;
+            }
+
+
+            #SendForm {
+                background-color: #3E5F2D;
+                font-family: Assistant-Bold;
+                font-size: 15pt;
+                color: white;
+                width:100px;
+                height: 50px;
+                float: left;
+            }
+
+                        input #rd1 {
+                            width: 10px;
+                        }
+
+                        #mytxt, #mymail, #mytel, #myMS {
+                            width: 500px;
+                        }
+
+                        #myMS{ 
+                            height: 150px;
+                            margin-top: 5px;
+                            color: white;
+                        }
+
+    /*הייצוג האינטרקטיבי*/
+    #interactiveDesign {
+        display: block;
+        margin-top: 200px;
+        margin-right: 30px;
+    }
+
+    iframe {
+        position: relative;
+        top: 140px;
+        right: 50px;
+        margin: 0 auto;
+    }
+
+
+/*מפת האתר*/
+#siteMap {
+    margin-top: 250px;
+    margin-bottom: -300px;
+    margin-right: 50px;
+}
+
+    #siteMap ul {
+        margin-right: 50px;
+        display: inline-block;
+        list-style: circle;
+        color: black;
+        Vertical-align: top;
+        width: 250px;
+        font-size: 16pt;
+        line-height: 160%;
+    }
+
+        #siteMap ul #firstIN {
+            list-style: none;
+            font-family: Assistant-Bold;
+            margin-right: -25px;
+        }
+
+        #siteMap ul li ul {
+            font-size: 14pt;
+        }
+
+                #siteMap ul li a {
+                    color: #55A646;
+                    text-decoration: none;
+                    font-family: Assistant-Bold;
+                }
+
+                    #siteMap ul li a:hover {
+                        color: #A2EC34;
+                        text-decoration: underline;
+                    }
+
+            #siteMap ul li ul li ul {
+            font-size: 12pt;
+            }
+
+ #siteMap #lastOne {
+     position: relative;
+     right: 610px;
+     top: -140px;
+ }
